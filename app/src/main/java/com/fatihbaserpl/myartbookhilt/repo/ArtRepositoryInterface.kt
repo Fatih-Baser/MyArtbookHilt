@@ -1,0 +1,18 @@
+package com.fatihbaserpl.myartbookhilt.repo
+
+import androidx.lifecycle.LiveData
+import com.fatihbaserpl.myartbookhilt.datamodel.ImageResponse
+import com.fatihbaserpl.myartbookhilt.roomdb.Art
+import com.fatihbaserpl.myartbookhilt.util.Resource
+
+interface ArtRepositoryInterface {
+
+    suspend fun insertArt(art : Art)
+
+    suspend fun deleteArt(art: Art)
+
+    fun getArt() : LiveData<List<Art>>
+
+    suspend fun searchImage(imageString : String) : Resource<ImageResponse>
+
+}

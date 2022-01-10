@@ -23,11 +23,11 @@ class ArtDaoTest {
     @get:Rule
     var instantTaskExecutorRule = InstantTaskExecutorRule()
 
-    @get:Rule
-    var hiltRule = HiltAndroidRule(this)
+   // @get:Rule
+   // var hiltRule = HiltAndroidRule(this)
 
-    @Inject
-    @Named("testDatabase")
+   // @Inject
+   // @Named("testDatabase")
     lateinit var database : ArtDatabase
 
     private lateinit var dao : ArtDao

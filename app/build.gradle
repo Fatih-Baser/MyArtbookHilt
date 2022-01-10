@@ -19,6 +19,10 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    packagingOptions {
+        resources.excludes.add("META-INF/*")
+    }
+
 
     buildTypes {
         release {
@@ -102,4 +106,6 @@ dependencies {
 
     androidTestImplementation "androidx.fragment:fragment-testing:1.4.0"
     androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
+
+    androidTestImplementation 'com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:3.1.2'
 }

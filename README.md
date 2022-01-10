@@ -7,6 +7,14 @@ LiveData
 
 DataBinding
 
+Espresso & Mockito
+
+Unit Test
+
+Testing
+
+Integration Test
+
 Retrofit
 
 Room
@@ -17,36 +25,14 @@ ViewModel
 
 Dagger - Hilt - Dependency Injection
 
-Testing
-
-Unit Test
-
-Integration Test
-
-Espresso & Mockito
-
 Compose
 
 Effect Handlers
 
 Broadcast Receivers
 
-Servisler
-
-İçerik Sağlayıcılar
-
-Kullanıcı Arayüzü İşlemleri
+Services
 
 Fragment
 
 Recycler View
-
-Push Notifications
-
-Firebase
-
-Parse
-
-SQLite
-
-Flow
